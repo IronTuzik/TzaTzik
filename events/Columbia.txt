@@ -1,0 +1,88 @@
+add_namespace = columbia
+
+# Hato rasstrel
+country_event = {
+	id = columbia.1
+	title = columbia.1.t
+	desc = columbia.1.d
+	picture = GFX_report_event_french_resistance_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = columbia.1.a
+	}
+}
+# Big Kozyavki
+country_event = {
+	id = columbia.2
+	title = columbia.2.t
+	desc = columbia.2.d
+	picture = GFX_news_event_054
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = columbia.2.a
+	}
+}
+# Smert Konya
+country_event = {
+	id = columbia.3
+	title = columbia.3.t
+	desc = columbia.3.d
+	picture = GFX_news_event_054
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = columbia.3.a
+	}
+}
+# Podgotovka k mesti
+country_event = {
+	id = columbia.4
+	title = columbia.4.t
+	desc = columbia.4.d
+	picture = GFX_news_event_054
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = columbia.4.a
+	}
+}
+# Posli v Vertland
+country_event = {
+	id = columbia.7
+	title = columbia.7.t
+	desc = columbia.7.d
+	picture = GFX_report_event_usa_election_generic
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = columbia.7.a
+	}
+}
+# Sud nad doshikom
+country_event = {
+	id = columbia.8
+	title = columbia.8.t
+	desc = columbia.8.d
+	picture = GFX_report_event_usa_election_generic
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = columbia.8.a
+		retire_character = COL_Doshuk
+	}
+	option = {
+		name = columbia.8.b
+		add_popularity = {
+		ideology = communism
+		popularity = -0.1
+		}
+	}
+}
